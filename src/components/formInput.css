@@ -1,0 +1,19 @@
+input{
+    color:black;
+    padding:15px;
+    height:6px;
+    margin:10px;
+    border-radius:5px;
+    margin-left: 36%;
+    border:1px solid rgba(128, 128, 128, 0);
+}
+
+label{   
+    font-family: 'Whisper', cursive;
+    
+    margin-top:3%;
+    font-size:30px;
+    display:block;
+    color:rgb(255, 255, 255);
+    margin-left:27%;
+}
