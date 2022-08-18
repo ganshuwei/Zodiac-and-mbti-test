@@ -10,6 +10,7 @@
 .app2{
 }
 
+
 .app3{
   background-color: #c9ccce96;
   width: 400px;
@@ -19,6 +20,26 @@
   padding: 20px;
   box-shadow: 10px 10px 42px 0px #8e9091a1;
   align-items: center; 
+}
+
+.app4{
+  justify-content:center;
+  height:30vh;
+  background: url("./images/121.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.app5{
+  justify-content:center;
+  height:30vh;
+  background: url("./images/mbti1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -216,7 +237,7 @@
 }
 
 .button1{
-  width: 15% !important;;
+  width: 15% !important;
   height: 35px !important;
   margin-left: 42%;
   margin-top: 1%;
@@ -229,6 +250,13 @@
   color:rgba(77, 76, 76, 0.897);
   align-items: center;
 }
+
+.t{
+  background-color: #ffffff00;
+  justify-content:flex-end;
+  height:30vh;
+}
+
 
 
 
@@ -384,6 +412,19 @@ button {
   align-items: center;
   border-style: none;
   cursor: pointer;
+}
+
+.rt{
+  margin-top:0.5%;
+  margin-left: 95%;
+  width: 5%;
+  color: #4646469e;
+  background-color: #ffffff;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Square Peg', cursive;
+  text-align: center;
+  justify-content: center;
 }
 
 .correct {

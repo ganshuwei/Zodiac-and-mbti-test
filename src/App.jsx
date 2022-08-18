@@ -392,11 +392,17 @@ const handleAnswerButtonClick=(isCorrect)=>{
 
 if(mainpage){
     return(
-        <div><form>
-            <button onClick={b1}>Zodiac</button>
-            <button onClick={b2}>mbti</button>
+       <div>
+        <div className="app4">
+        <form>
+            <button onClick={b1} className="t"></button>
         </form>
-            
+        </div>
+        <div className="app5">
+        <form>
+            <button onClick={b2} className="t"></button>
+        </form>
+        </div>
         </div>
     );
 }
@@ -439,13 +445,13 @@ if(showSocre){
     return(
         <div>
 
-        <button onClick={a1}>Mainpage</button>
+        <button onClick={a1} className="rt">Back</button>
         <div className="app3" >
             
             <h1>Your mbti is {Etype+Ntype+Ftype+Jtype}</h1>
             
             
-        <img src={add} width={400} id="mbti"></img>
+            <img src={add} width={400} id="mbti"></img>
         <span className="dot" onClick={download1}></span>
         </div>
         </div>
@@ -473,7 +479,7 @@ if(!loading && !mbti){
 if(loading && !mbti){  
     return(
         <div>
-            <button onClick={a1}>Mainpage</button>
+            <button onClick={a1} className="rt">Back</button>
         <div className={animals} id="zodiac">
             <i className="fa fa-download" onClick={download} ></i>
             <h6>gsw,</h6>
